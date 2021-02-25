@@ -1,0 +1,9 @@
+streamlit
+gunicorn
+plotly
+pandas
+numpy
+pathlib
+scikit-learn
+pybase64
+simpy.io

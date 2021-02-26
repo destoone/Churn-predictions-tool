@@ -160,7 +160,7 @@ def navigue():
         if 0 in df[target].unique() and 1 in df[target].unique():
             st.sidebar.success("Nice! You have get the good choice.")
         else:
-            st.sidebar.error("Sorry! column it's not appropriated.")
+            st.sidebar.error("Sorry! column it's not appropriated, you need target with 0 and 1 like values.")
 
         features = st.sidebar.multiselect(
                 "Features",
